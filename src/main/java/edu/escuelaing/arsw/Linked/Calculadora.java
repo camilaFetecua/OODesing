@@ -5,6 +5,10 @@ import java.util.List;
 
 public class Calculadora {
 
+    /** Metodo para calcular la media
+     * @return media
+     * @param lista1 es la lista de tipo linkenlistCami
+     */
     public  double calcularMedia(LinkedlistCami<Double> lista1){
 
         Double suma=0.0;
@@ -14,6 +18,10 @@ public class Calculadora {
         } return suma/lista1.size();
     }
 
+    /** Metodo para calcular la desviacion Estandar
+     * @return desviacionEstandar
+     * @param lista1 es la lista de tipo linkenlistCami
+     */
 
     public  Double calcularDesviacion(LinkedlistCami<Double> lista1){
         Double calculo =0.0;

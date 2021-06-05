@@ -9,12 +9,19 @@ public class LinkedlistCami<E> implements List<E> , Deque<E>, Cloneable, Seriali
     private Nodo<E> cabeza;
     private Nodo<E> cola;
 
+    /**
+     * Constructor de la clase
+     */
     public LinkedlistCami() {
         cabeza = null;
         cola = null;
         int size = 0;
     }
 
+    /**
+     * Retorna el numero de elementos de la lista
+     * @return contador que es el numero de elementos de la lista
+     */
     public int size() {
         Nodo actual = cabeza;
         int contador = 0;
@@ -25,7 +32,10 @@ public class LinkedlistCami<E> implements List<E> , Deque<E>, Cloneable, Seriali
         return contador;
     }
 
-
+    /**
+     *Agrega elementos esfecificos a la lista
+     * @return true si la cabeza es nula y false de lo contrario
+     */
     public boolean isEmpty() {
         if (cabeza == null) {
             return true;
@@ -39,7 +49,10 @@ public class LinkedlistCami<E> implements List<E> , Deque<E>, Cloneable, Seriali
         return false;
     }
 
-
+    /**
+     * Retorna un iterador de los elementos que esta el las secuencia adecuada
+     *
+     */
     public Iterator<E> iterator() {
         return new Iterator<E>() {
             Nodo<E> actual = cabeza;
@@ -153,7 +166,11 @@ public class LinkedlistCami<E> implements List<E> , Deque<E>, Cloneable, Seriali
         return false;
     }
 
-
+    /**
+     * Agrega un elemento especifico a la lista
+     *
+     *
+     */
     public boolean add(E e) {
         Nodo<E> nuevoNodo = new Nodo(e);
         if (cabeza == null) {
@@ -167,14 +184,20 @@ public class LinkedlistCami<E> implements List<E> , Deque<E>, Cloneable, Seriali
         return true;
     }
 
+    /**
+     * Elimna el primer elemento especificado de la lista
+     *
+     * @return true si el elemento esta en la lista
+     */
+
 
     public boolean remove(Object o) {
         Nodo nodo = cabeza;
         Nodo previo = null;
         E inf = null;
         boolean bandera = false;
-        int tamaño = size();
-        while (tamaño != size() && nodo != null) {
+        int tamano = size();
+        while (tamano != size() && nodo != null) {
             inf = (E) nodo.getValor();
             if (inf.equals(o)) {
                 bandera = true;
@@ -185,7 +208,7 @@ public class LinkedlistCami<E> implements List<E> , Deque<E>, Cloneable, Seriali
                     cabeza = cabeza.getSiguiente();
                 }
             } else {
-                tamaño--;
+                tamano--;
                 previo = nodo;
                 nodo = nodo.getSiguiente();
             }
@@ -256,7 +279,6 @@ public class LinkedlistCami<E> implements List<E> , Deque<E>, Cloneable, Seriali
     public void clear() {
 
     }
-    /*Implementar Devolver valor del elemento */
 
     public E get(int index) {
         return null;
