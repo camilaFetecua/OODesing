@@ -57,5 +57,5 @@ Se deben tener instaaldos los siguientes programas
   
   
  ## AUTOR
- **Maria Camila Fetecua Garcia** LOCS/Hora 230/12 = 19 LOCS/Hora
+ **Maria Camila Fetecua Garcia** LOCS/Hora 245/6 = 40 LOCS/Hora
 
