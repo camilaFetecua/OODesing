@@ -35,7 +35,7 @@ Se deben tener instaaldos los siguientes programas
    
   ## Diagrama de clase
 
-  ![Imagen]()
+  ![Imagen](https://github.com/camilaFetecua/OODesing/blob/master/Imagenes/DiagramadeClaes.PNG)
 
 
 
