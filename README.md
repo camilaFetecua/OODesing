@@ -35,20 +35,21 @@ Se deben tener instaaldos los siguientes programas
    
   ## Diagrama de clase
 
-  ![Imagen]()
+  ![Imagen](https://github.com/camilaFetecua/OODesing/blob/master/Imagenes/DiagramadeClaes.PNG)
 
 
 
   ## Descripción del diagrama de clases
  
- En el diagrama encontramos 4 clases :
-  +LinkendlistCami:  Clase donde encontramos la lógica para trabajar con listas          genéricas. 
-  +Nodo: Clase donde creamos un Nodo que es el elemento que utilizamos en LinkendlistCami. 
-  +App: Clase principal donde leemos el arvhico e imprimimos los resultados de las operaciones. 
-  +Calculadora: Clase donde calculamos la desviacion estandar y la media. 
+  En el diagrama encontramos 4 clases :
+ 
+  + LinkendlistCami:  Clase donde encontramos la lógica para trabajar con listas genéricas. 
+  + Nodo: Clase donde creamos un Nodo que es el elemento que utilizamos en LinkendlistCami. 
+  + App: Clase principal donde leemos el arvhico e imprimimos los resultados de las operaciones. 
+  + Calculadora: Clase donde calculamos la desviacion estandar y la media. 
   
 
- ## Pruebas 
+
 
 
  ## LICENCIA
@@ -56,5 +57,5 @@ Se deben tener instaaldos los siguientes programas
   
   
  ## AUTOR
- **Maria Camila Fetecua Garcia** LOCS/Hora 230/12 = 19 LOCS/Hora
+ **Maria Camila Fetecua Garcia** LOCS/Hora 245/6 = 40 LOCS/Hora
 
