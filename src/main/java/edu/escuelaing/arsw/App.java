@@ -22,7 +22,21 @@ public class App
     public static void main( String[] args )
     {
         String file =args[0];
-       
+        System.out.println(file);
+       /* Path path = Paths.get(file);
+        LinkedlistCami<Double> lista1 =new LinkedlistCami<>();
+        try (Stream<String> stream = Files.lines(path)) {
+            for (String i : stream.collect(Collectors.toList())) {
+                lista1.add(Double.parseDouble(i.trim()));
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        Calculadora calculadora = new Calculadora();
+        media = calculadora.calcularMedia(lista1);
+        desviacionEstandar = calculadora.calcularDesviacion(lista1);
+        System.out.println(media);
+        System.out.println(desviacionEstandar);*/
 
     }
 
