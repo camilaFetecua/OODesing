@@ -49,7 +49,8 @@ Se deben tener instaaldos los siguientes programas
   + Calculadora: Clase donde calculamos la desviacion estandar y la media. 
   
 
-
+## PRUEBAS
+![Imagen](https://github.com/camilaFetecua/OODesing/blob/master/Imagenes/Reporte1.PNG)
 
 
  ## LICENCIA
